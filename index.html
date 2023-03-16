@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Product Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='./style.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" id="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Orange</label>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Camera</a></li>
+                <li><a href="#">Battery & Chargers</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <div class="container">
+            <div class="wrapper">
+                <div class="product-box">
+                    <div class="all-images">
+                        <div class="small-images">
+                            <img src="./images/c1.jpg" onclick="clicking(this)">
+                            <img src="./images/c2.jpg" onclick="clicking(this)">
+                            <img src="./images/c3.jpg" onclick="clicking(this)">
+                            <img src="./images/c4.jpg" onclick="clicking(this)">
+                            <img src="./images/c5.jpg" onclick="clicking(this)">
+                        </div>
+                        <div class="main-images">
+                            <img src="./images/c1.jpg" id="imagebox">
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="content">
+                        <p class="brand">Brand: Orange</p>
+                        <h2>Canon EOS 1500D 24.1 Digital SLR Camera (Black) with EF S18-55 is II Lens</h2>
+                        <div class="review">
+                            <span>(4.6)</span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price-box">
+                            <p class="price">
+                                &#8377;37,490 
+                            </p>
+                            <strike>&#8377; 39,990</strike>
+                        </div>
+                        <h3>Desciption :</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quas sint temporibus optio fugiat labore ex voluptate
+                            molestias repellat accusamus sequi odit necessitatibus dolores, sit cupiditate incidunt dolor doloribus harum
+                            maiores iste iure quod cum, quia placeat. Odio, aperiam qui maiores corrupti quo esse aliquam repudiandae ea ullam
+                            fuga dicta aliquid quam ex! Numquam molestias, voluptatum beatae ut ad dignissimos.</p>
+                        
+                        <p>Quantity <input type="text" value="1"></p>
+                        <button>
+                            <span class="fa fa-shopping-cart"></span>
+                            Add to Cart
+                        </button>
+                        <button class="buy">
+                            <span class="fa fa-shopping-cart"></span>Buy Now
+                        </button>
+                    </div>
+                    <div id="icon-farm" class="a-section icon-farm-top-separator">
+                        <div id="icon-farm-container" class="a-section a-spacing-none">
+                            <div class="a-row icon-farm-wrapper">
+                                <div data-buying-option-index="0" data-icon-content="icon-container-7430448e-559c-458a-8fce-04b2fe4935e9"
+                                    data-name="FREE_DELIVERY" data-type="custom-pop-over" id="FREE_DELIVERY"
+                                    class="a-column a-span3 a-text-center icon-container icon-grid-width celwidget a-declarative"
+                                    data-csa-c-id="jp902b-uvwmee-skvmao-mlzya7" data-cel-widget="FREE_DELIVERY">
+                                    <div class="a-section a-spacing-none"> <img
+                                            src="./images/free-delivery.png"
+                                            class="a-image-wrapper a-manually-loaded icon-box" id="" style="height:35px;width:35px;"
+                                            alt="Free Delivery"
+                                            data-a-image-source="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/trust_icon_free_shipping_81px._CB630870460_.png">
+                                    </div>
+                                    <div class="a-section a-spacing-none icon-content"> <a class="a-size-small a-link-normal a-text-normal"
+                                            href="#"> Free Delivery </a> </div>
+                                </div>
+                                <div data-buying-option-index="0" data-icon-content="icon-farm-secondary-view-holder"
+                                    data-name="RETURNS_POLICY" data-type="pop-over" id="RETURNS_POLICY"
+                                    class="a-column a-span3 a-text-center icon-container icon-grid-width celwidget"
+                                    data-csa-c-id="njxqdg-2wxm1t-kuwuuk-l7vl10" data-cel-widget="RETURNS_POLICY"> <span
+                                        class="a-declarative" data-action="a-popover" data-csa-c-type="widget"
+                                        data-csa-c-func-deps="aui-da-a-popover"
+                                        data-a-popover="{&quot;dataStrategy&quot;:&quot;preload&quot;,&quot;name&quot;:&quot;return-policy-secondary-view&quot;,&quot;activate&quot;:&quot;onclick&quot;,&quot;width&quot;:&quot;533&quot;,&quot;position&quot;:&quot;triggerBottom&quot;}"
+                                        data-csa-c-id="j044ck-77ls9k-n9jh24-um1vi0">
+                                        <div class="a-section a-spacing-none"> <img
+                                                src="./images/replacement.png"
+                                                class="a-image-wrapper a-manually-loaded icon-box" id="" style="height:35px;width:35px;"
+                                                alt="7 days Replacement"
+                                                data-a-image-source="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-returns._CB484059092_.png">
+                                        </div>
+                                        <div class="a-section a-spacing-none icon-content"> <a
+                                                class="a-size-small a-link-normal a-text-normal" href="#"> 7 days Replacement </a> </div>
+                                    </span> </div>
+                                <div data-buying-option-index="0" data-icon-content="icon-container-4e3d3c99-7c07-4b4a-87eb-7a0a963d64ee"
+                                    data-name="AMAZON_DELIVERED" data-type="custom-pop-over" id="AMAZON_DELIVERED"
+                                    class="a-column a-span3 a-text-center icon-container icon-grid-width celwidget a-declarative"
+                                    data-csa-c-id="ws72ju-fozvgl-7e56qh-sjewz9" data-cel-widget="AMAZON_DELIVERED">
+                                    <div class="a-section a-spacing-none"> <img
+                                            src="./images/luggage.png"
+                                            class="a-image-wrapper a-manually-loaded icon-box" id="" style="height:35px;width:35px;"
+                                            alt="Orange Delivered"
+                                            data-a-image-source="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-amazon-delivered._CB485933725_.png">
+                                    </div>
+                                    <div class="a-section a-spacing-none icon-content"> <a class="a-size-small a-link-normal a-text-normal"
+                                            href="#"> Orange Delivered </a> </div>
+                                </div>
+                                <div data-buying-option-index="0" data-icon-content="icon-container-c4339be7-0165-407d-883a-f92fc807161e"
+                                    data-name="WARRANTY" data-type="custom-pop-over" id="WARRANTY"
+                                    class="a-column a-span3 a-text-center icon-container icon-grid-width celwidget a-declarative"
+                                    data-csa-c-id="jj7p1n-1fhgel-4ervc8-qqxyvo" data-cel-widget="WARRANTY">
+                                    <div class="a-section a-spacing-none"> <img
+                                            src="./images/warranty.png"
+                                            class="a-image-wrapper a-manually-loaded icon-box" id="" style="height:35px;width:35px;"
+                                            alt="Warranty Policy"
+                                            data-a-image-source="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-warranty._CB485935626_.png">
+                                    </div>
+                                    <div class="a-section a-spacing-none icon-content"> <a class="a-size-small a-link-normal a-text-normal"
+                                            href="#"> Warranty Policy </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="rateProduct">
+                            <div class="rateHead">
+                                <h3>Ratings & Reviews</h3>
+                                <button>Rate Product</button>
+                            </div>
+                            <div class="rateBody">
+                                <div class="row">
+                                    <div class="col-4-12">
+                                        <h1>4.7 <span class="fa fa-star"></span></h1>
+                                    </div>
+                                    <div class="col-8-12">
+                                        <ul>
+                                            <li>5 <span class="fa fa-star"></span></li>
+                                            <li>4 <span class="fa fa-star"></span></li>
+                                            <li>3 <span class="fa fa-star"></span></li>
+                                            <li>2 <span class="fa fa-star"></span></li>
+                                            <li>1 <span class="fa fa-star"></span></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- <div class="Specs">
+                                   <div class="camera">
+                                    <div class="fa-regular fa-circle"></div>
+                                    <h1>Camera</h1>
+    
+                                   </div>
+                                   <div class="camera">
+                                    <div class="fa-regular fa-circle"></div>
+                                    <h1>Display</h1>
+    
+                                   </div>
+                                   <div class="camera">
+                                    <div class="fa-regular fa-circle"></div>
+                                    <h1>Battery</h1>
+    
+                                   </div>
+                                   <div class="camera">
+                                    <div class="fa-regular fa-circle"></div>
+                                    <h1>Design</h1>
+    
+                                   </div> 
+                                    
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <div class="row primary">
+                <div class="column about">
+                    <h3>Connect</h3>
+                    <p>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>Coalition Technologies, 3750 S Robertson Blvd
+                    </p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            
+                <div class="column link">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </div>
+            
+                <div class="column subscribe">
+                    <h3>Newsletter</h3>
+                    <div>
+                       <input type="email" placeholder="Your email id here" />
+                       <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="footer-menu">
+              
+                <a href="">Home</a>
+                <a href="">F.A.Q</a>
+                <a href="">Cookies Policy</a>
+                <a href="">Terms Of Service</a>
+                <a href="">Support</a>
+              
+                </div>
+                 <p>Copyright &copy; 2022</p>
+              </div>
+    </footer>
+</section>
+    <script>
+        function clicking(smallImg){
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+        }
+    </script>
+    
+</body>
+</html>
